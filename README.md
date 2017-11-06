@@ -9,10 +9,10 @@ It also tries to manage the usual login flows such as redirecting users when sig
 1. [Express](https://expressjs.com/): To make working with node easier
 2. [Body-parser](https://www.npmjs.com/package/body-parser): To work with form-data (login details such as email and password).
 3. [Bcryptjs](https://www.npmjs.com/package/bcrypt): To hash passwords.
-4. [Connect-mongo](https://www.npmjs.com/package/connect-mongo): To store session data.
+4. [Connect-mongo](https://www.npmjs.com/package/connect-mongo): To store session data in mongodb. You can also work without it and the data will be stored in RAM.
 5. [Mongoose](http://mongoosejs.com/): It's a mongodb ODM basically to help working with mongodb easier.
 6. [HBS](http://handlebarsjs.com/): Handlebars view engine. It's a template engine to add data directly into views before sending.
-7. [Express-session](https://www.npmjs.com/package/express-session): A session middleware for express applications.
+7. [Express-session](https://www.npmjs.com/package/express-session): A session middleware for express applications. For handling all tasks such as setting cookie on client requests, storing session data in selected session store.
 
 
 ### Installation:
